@@ -9,7 +9,7 @@ from sklearn.naive_bayes import MultinomialNB
 st.set_page_config(page_title="Spam Detection App", layout="centered")
 
 st.title("📩 Spam Detection App")
-st.write("Classify messages as **Spam** or **Not Spam** using Machine Learning.")
+st.write("Classify messages as **Spam** or **Not Spam** Doing with Yamini.")
 
 # ------------------------------
 # Load dataset (from CSV file if available)
