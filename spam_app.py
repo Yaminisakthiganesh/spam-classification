@@ -68,9 +68,9 @@ if st.button("Predict"):
         vect = vectorizer.transform([cleaned])
         prediction = model.predict(vect)[0]
         if prediction == "spam":
-            st.error("🚨 This message is classified as **SPAM**")
+            st.error(" This message is classified as **SPAM**")
         else:
-            st.success("✅ This message is classified as **NOT SPAM**")
+            st.success(" This message is classified as **NOT SPAM**")
 
 # ------------------------------
 # Footer
